@@ -1,0 +1,258 @@
+@CHARSET "UTF-8";
+/*  게시판 전체 적용 */
+table {
+	width: 760px;
+	margin: 0 auto;
+	padding: 5px 5px;
+	border-collapse: collapse;
+	line-height: 160%;
+	text-align: center;
+	font-size: 15px;
+}
+
+a:link {
+	text-decoration: none;
+	color: #575757;
+}
+
+a:hover {
+	text-decoration: yes;
+	color: #993333;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #575757;
+}
+
+.boardTitle {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	/* border-bottom: 1px dotted #787878; */
+}
+
+/*  게시 글 리스트 */
+.listWrite {
+	text-align: right;
+}
+.listThNo {
+	width: 60px;
+	height: 30px;
+}
+
+.listThTitle {
+	width: 400px;
+}
+
+.listThWriter {
+	width: 110px;
+}
+
+.listThRegDate {
+	width: 130px;
+}
+
+.listThReadCount {
+	width: 60px;
+}
+
+.listTdLikeCount {
+	width: 60px;
+	border: 1px solid #787878;
+}
+
+.listTdSpan {
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.listTdNo {
+	height: 30px;
+}
+
+.listTdTitle {
+	padding-left: 10px;
+}
+
+.listThNo, .listThWriter, .listThRegDate, .listThLikeCount, .listThReadCount{
+	border: 1px solid #787878;
+	
+} 
+
+.listTdNo, .listTdWriter, .listTdRegDate, .listTdLikeCount, .listTdReadCount {
+	text-align: center;
+	border: 1px solid #787878;
+}
+
+table .listTr:hover {
+	background-color: #FFEEEE;
+}
+
+#searchForm {
+	float: left;
+	width: auto;
+}
+
+/* 게시 글 상세보기 */
+.contentTh, .contentTd {
+	border: 1px solid #787878;
+}
+
+.contentTh {
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	background-color: #EAEAEA;
+}
+
+.contentTd {
+	width: 200px;
+	padding-left: 10px;
+}
+
+.readContent {
+	height: 300px;
+	padding: 20px;
+	border: 1px solid #787878;
+	vertical-align: top;
+	/* overflow: scroll; */
+}
+
+.tdSpan {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+/* 글쓰기 폼 */
+.readTh, .readTd {
+	height: 30px;
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+}
+
+.readTh {
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.readTd {
+	padding-left: 10px;
+}
+
+textarea {
+	border: 1px solid #999999;
+	font-size: 12px;
+}
+
+/* 수정폼 */
+
+/* 게시 글 상세 댓글 부분 */
+#replyTable {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	border-collapse: collapse;
+	border: 1px solid #EAEAEA;
+}
+.replyHeader {
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #EAEAEA;
+	text-align: center;
+}
+#replyTitle {
+	clear: both;
+	height: 30px;
+	line-height: 30px;
+	background: #898989;	
+	color: white;
+	border: 1px solid #898989;	
+}
+#recommend {
+	float: right;
+	width: 258px;	
+	text-decoration: none;	
+}
+.recommend {
+	font-weight: bold;
+	color: #777777;
+}
+.replyUser {	
+	float: left;
+	width: 369px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	text-align: left;
+	background: #EFEFEF;
+}
+.replyModify {
+	float: right;
+	width: 369px;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	text-align: right;
+	background: #EFEFEF;
+}
+.replyContent {
+	clear: both;
+	line-height: 20px;	
+	padding: 5px 10px 5px 10px;	
+	/* line-height: 30px; */
+}
+#replyForm {
+	width: 736px;
+	margin: 0 auto;
+	display: none;
+}
+#replyWriteTable {
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	border: 0px;
+	margin: 5px 0 5px 0;
+	font-size: 12px;
+}
+#replyWriteTitle {
+	background: #F7F7F7;
+	padding: 3px;	
+	text-align: center;
+}
+#replyWriteContent {
+	width: 100%;
+	height: 100%;
+}
+#replyContent {	
+	width: 100%;	
+	padding: 0px;
+	word-break: break-all;
+}
+#replyWriteButton {
+	width: 85px;
+	height: 54px;
+	border: 0px;
+}
+#notReply {
+	padding: 10px;
+}
+
+
+/* 글쓰기 폼 */
+.readTh, .readTd {
+	height: 30px;
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+}
+.readTh {
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+}
+.readTd {
+	padding-left: 10px;
+}

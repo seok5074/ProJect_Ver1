@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+	background: #282828;
+	color: #FFFFFF;
+}
+h1{
+	font-size: 50px;
+}
+#main_box{
+	width: auto;
+	height: auto;	
+	margin-top: 10%;
+	text-align: center;		
+	font-size: 1px;
+}
+#inputId ,#inputPwd {
+	height: 30px;
+	}
+	
+#btnLogin{
+	width: 175px;
+}
+#btnInsert{
+	width: 175px;
+}

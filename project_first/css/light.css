@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+a:hover {
+	color: #ff0000;
+}
+
+a:visited {
+	color: #000000;
+}
+
+.right_menu {
+	border: 1px solid #444444;
+	width: 150px;
+	height: 150px;
+	background-color: #dedede;
+	position: absolute;
+	right: 30px;
+	top: 45%
+}
+
+.video:hover{
+	background-color: #F7FAFF;
+}
+
+
+#searchForm {
+	float: left;
+}
+
+#searchForm {
+	float: left;
+}
+
+/*검색창관련*/
+.search {
+	width: 40%;
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+}
+
+.searchTerm {
+	width: 100%;
+	border: 3px solid #354b9c;
+	border-right: none;
+	padding: 5px;
+	height: 36px;
+	outline: none;
+	color: #9DBFAF;
+}
+
+.searchTerm:focus {
+	color: #444;
+}
+
+.searchButton {
+	width: 30%;
+	height: 36px;
+	border: 3px solid #354b9c;
+	background: #EFEFEF;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.searchSelect {
+	border: 3px solid #354b9c;
+}
+

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+	background: #282828;
+	color: #FFFFFF;
+}
+
+#insert_box{
+	width: auto;
+	height: auto;	
+	margin-top: 10%;
+	margin-left: 30%;
+}

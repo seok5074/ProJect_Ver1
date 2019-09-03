@@ -1,0 +1,575 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.loginOption {
+	text-align: right;
+	position: relative;
+	right: 3%;
+	bottom: 90px;
+}
+/*메인페이지 로고*/
+.logo {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+header {
+	max-height: 150px;
+}
+
+.logo_img {
+	text-align: left;
+	margin-top: 1%;
+	margin-left: 10px;
+}
+
+.mainMenu {
+	width: 100%;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px solid #aaaaaa;
+	color: #000000;
+}
+
+.mainMenu>ul>li {
+	list-style-type: none;
+	float: left;
+	margin-left: 13.2%;
+}
+
+.video {
+	width: 80%;
+	height: 140px;
+	margin-left: 3%;
+}
+
+.video_title {
+	position: relative;
+	left: 350px;
+	bottom: 100%;
+}
+
+.video_detail {
+	position: relative;
+	left: 350px;
+	bottom: 150px;
+}
+
+.change_theme {
+	text-align: right;
+	position: relative;
+	bottom: 80px;
+	right: 10%;
+}
+
+.right_menu {
+	text-align: center;
+}
+/*  게시판 전체 적용 */
+table {
+	width: 760px;
+	margin: 0 auto;
+	padding: 5px 5px;
+	border-collapse: collapse;
+	line-height: 160%;
+	font-size: 15px;
+}
+
+.boardTitle {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	/* border-bottom: 1px dotted #787878; */
+}
+
+/*  게시 글 리스트 */
+.listWrite {
+	text-align: right;
+	padding-right: 15px;
+}
+
+.listThNo {
+	width: 60px;
+	height: 30px;
+}
+
+.listThTitle {
+	width: 400px;
+}
+
+.listThWriter {
+	width: 110px;
+}
+
+.listThRegDate {
+	width: 150px;
+}
+
+.listThReadCount {
+	width: 60px;
+}
+
+.listThLikeCount {
+	width: 60px;
+}
+
+.listTdSpan {
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.listTdNo {
+	height: 30px;
+}
+
+.listTdTitle {
+	padding-left: 10px;
+}
+
+.listThNo, .listThTitle, .listThWriter, .listThRegDate, .listThReadCount,
+	.listThLikeCount {
+	text-align: center;
+	border: 1px solid #787878;
+	background: #EAEAEA;
+}
+
+.listTdNo, .listTdTitle, .listTdWriter, .listTdRegDate, .listTdReadCount,
+	.listTdLikeCount {
+	text-align: center;
+	border: 1px solid #AAAAAA;
+}
+
+table .listTr:hover {
+	background-color: #FFEEEE;
+}
+
+#searchForm {
+	float: left;
+}
+
+/*검색창관련*/
+.search {
+	width: 40%;
+	position: relative;
+	display: flex;
+	margin: 0 auto;
+}
+
+.searchTerm {
+	width: 100%;
+	border: 3px solid #354b9c;
+	border-right: none;
+	padding: 5px;
+	height: 36px;
+	outline: none;
+	color: #9DBFAF;
+}
+
+.searchTerm:focus {
+	color: #444;
+}
+
+.searchButton {
+	width: 30%;
+	height: 36px;
+	border: 3px solid #354b9c;
+	background: #EFEFEF;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.darksearchTerm {
+	width: 100%;
+	border: 3px solid #fff;
+	border-right: none;
+	padding: 5px;
+	height: 36px;
+	outline: none;
+	color: #000;
+}
+
+.darksearchTerm:focus {
+	color: #444;
+	border: 2px solid #febebe;
+}
+
+.darksearchButton {
+	width: 30%;
+	height: 36px;
+	border: 3px solid #fff;
+	background: #dcdcdc;
+	text-align: center;
+	color: #000;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.darksearchButton:hover{
+	border: 2px solid #febebe;
+}
+
+
+.searchSelect {
+	border: 3px solid #354b9c;
+}
+
+/* 게시 글 상세보기 */
+.contentTh, .contentTd {
+	border: 1px solid #787878;
+}
+
+.contentTh {
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	background-color: #EAEAEA;
+}
+
+.contentTd {
+	width: 200px;
+	padding-left: 10px;
+}
+
+.readContent {
+	height: 300px;
+	padding: 20px;
+	border: 1px solid #787878;
+	vertical-align: top;
+	/* overflow: scroll; */
+}
+
+.tdSpan {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+/* 글쓰기 폼 */
+.readTh, .readTd {
+	height: 30px;
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+}
+
+.readTh {
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.readTd {
+	padding-left: 10px;
+}
+
+textarea {
+	border: 1px solid #999999;
+	font-size: 12px;
+}
+
+/* 글쓰기 css */
+#board_insert_form {
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#board_insert_form>table {
+	width: 100%;
+}
+
+caption {
+	text-align: center;
+	font-size: 20pt;
+}
+
+/* 게시 글 상세 댓글 부분 */
+#replyTable {
+	max-width: 1000px;
+	width: 1000px;
+	padding: 0px;
+	font-size: 14px;
+	border-collapse: collapse;
+	border: 1px solid #EAEAEA;
+}
+
+.replyHeader {
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #EAEAEA;
+	text-align: center;
+}
+
+#replyTitle {
+	clear: both;
+	height: 30px;
+	line-height: 30px;
+	background: #898989;
+	color: white;
+	border: 1px solid #898989;
+}
+
+#recommend {
+	float: right;
+	width: 258px;
+	text-decoration: none;
+}
+
+.recommend {
+	font-weight: bold;
+	color: #777777;
+}
+
+.replyUser {
+	float: left;
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+	text-align: left;
+	background: #EFEFEF;
+}
+
+.replyModify {
+	float: right;
+	width: 50%;
+	height: 30px;
+	line-height: 30px;
+	padding-right: 10px;
+	text-align: right;
+	background: #EFEFEF;
+}
+
+.replyContent {
+	clear: both;
+	line-height: 20px;
+	padding: 5px 10px 5px 10px;
+	/* line-height: 30px; */
+}
+
+.replyContentPre {
+	float: left;
+}
+
+#replyForm {
+	width: 736px;
+	margin: 0 auto;
+	display: none;
+}
+
+#replyWriteTable {
+	width: 100%;
+	height: 26px;
+	line-height: 26px;
+	border: 0px;
+	margin: 5px 0 5px 0;
+	font-size: 12px;
+}
+
+#replyWriteTitle {
+	background: #F7F7F7;
+	padding: 3px;
+	text-align: center;
+}
+
+#replyWriteContent {
+	width: 100%;
+	height: 100%;
+}
+
+#replyContent {
+	width: 100%;
+	padding: 0px;
+	word-break: break-all;
+}
+
+#replyWriteButton {
+	width: 85px;
+	height: 54px;
+	border: 0px;
+}
+
+#notReply {
+	padding: 10px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+	vertical-align: middle;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	display: none;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #181818;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #181818;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;
+}
+
+.toggle {
+	margin: 0px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.video_player {
+	margin-top: 0.5%;
+	margin-left: 3%;
+}
+
+.content {
+	display: none;
+}
+
+.reply_list {
+	border-bottom: 1px solid #dcdcdc;
+	max-width: 1279px;
+}
+
+.reply_input {
+	height: 60px;
+}
+
+.video_tbl{
+	border-collapse: collapse;
+	border: 1px solid #444;
+	max-width: 1000px;
+}
+
+.video_tbl {
+	border: 1px solid #444;
+	border-collapse: collapse;
+}
+
+.tbl_input{
+	border: 1px solid #444;
+}
+
+.tbl_input:focus{
+	border: 1px solid #FF5050;
+}
+
+.video_detail_tbl {
+	margin-left: 15%;
+	margin-top: 20px;
+	max-width: 1000px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.btn_like {
+	margin-right: 450px;
+}
+
+.insert_reply_btn {
+	border: 1px solid #000;
+	background: #fff;
+	width: 80px;
+	height: 60px;
+	position: relative;
+	bottom: 25px;
+}
+
+.reply_top {
+	margin-top: 5px;
+	text-align: left;
+}
+/*동영상게시판 관련*/
+.Thumbnail {
+	width: 230px;
+	height: 95%;
+	margin-left: 100px;
+}
+
+.video-js {
+	margin-left: 15%;
+}
+
+.video_reply {
+	max-width: 1000px;
+	margin-left: 15%;
+}
+
+/* 회원정보 수정*/
+#insert_box {
+	width: auto;
+	height: auto;
+	margin-top: 10%;
+	margin-left: 30%;
+}
+
+.move_logo {
+	cursor: pointer;
+}
+
+#loginForm {
+	text-align: right;
+	position: relative;
+	right: 55px;
+	bottom: 60px;
+}
+
+#logoutForm {
+	text-align: right;
+	position: relative;
+	right: 55px;
+	bottom: 60px;
+}

@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+body {
+	color: black;
+	line-height: 160%;
+}
+
+/*  게시판 전체 적용 */
+.boardTitle {
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	/* border-bottom: 1px dotted #787878; */
+}
+
+/*  게시 글 리스트 */
+.listTdSpan {
+	height: 30px;
+	text-align: center;
+	font-size: 12px;
+}
+
+.listTdNo {
+	height: 30px;
+}
+
+.listTdTitle {
+	padding-left: 10px;
+	border: 1px solid #AAAAAA;
+}
+
+table .listTr:hover {
+	background-color: #FFEEEE;
+}
+
+#searchForm {
+	float: left;
+}
+
+/* 게시 글 상세보기 */
+.contentTh {
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	background-color: #EAEAEA;
+}
+
+.readContent {
+	height: 300px;
+	padding: 20px;
+	border: 1px solid #787878;
+	vertical-align: top;
+	/* overflow: scroll; */
+}
+
+.tdSpan {
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+/* 글쓰기 폼 */
+.readTh, .readTd {
+	height: 30px;
+	border: 1px solid #AAAAAA;
+	padding: 5px;
+}
+
+.readTh {
+	width: 120px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.readTd {
+	padding-left: 10px;
+}
+
+textarea {
+	border: 1px solid #999999;
+	font-size: 12px;
+}
+
+#board_insert_form {
+	width: 500px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#board_insert_form>table {
+	width: 100%;
+}
